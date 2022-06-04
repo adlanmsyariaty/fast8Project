@@ -1,1 +1,1 @@
-# Fast-8 Project
+# Fast-8 Project (Frontend)
