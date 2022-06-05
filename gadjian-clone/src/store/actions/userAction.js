@@ -11,7 +11,7 @@ export const fetchUser = (payload) => {
 export const changePage = (payload) => {
   return {
     type: PAGE_NUMBER,
-    payload,
+    payload, 
   };
 };
 
