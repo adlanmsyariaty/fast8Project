@@ -43,10 +43,20 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   width: 50%;
   row-gap: 8px
 }
+
+@media (max-width: 500px) {
+  .screen {
+    width: 67%;
+  }
+  .buttons {
+    width: 70%;
+  }
+}
+
 .button {
   width: 24%;
   padding: 20px;
