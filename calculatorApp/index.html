@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator App</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <section class="title">
+        <h1>Calculator App</h1>
+      </section>
+
+      <section class="display">
+        <input type="text" class="screen" disabled />
+      </section>
+
+      <section class="buttons">
+        <button class="button num" data-val="7">7</button>
+        <button class="button num" data-val="8">8</button>
+        <button class="button num" data-val="9">9</button>
+        <button class="button operator" data-val=" / ">&divide;</button>
+        <button class="button num" data-val="4">4</button>
+        <button class="button num" data-val="5">5</button>
+        <button class="button num" data-val="6">6</button>
+        <button class="button operator" data-val=" x ">&times;</button>
+        <button class="button num" data-val="1">1</button>
+        <button class="button num" data-val="2">2</button>
+        <button class="button num" data-val="3">3</button>
+        <button class="button operator" data-val=" - ">&minus;</button>
+        <button class="button clear" data-val="C">C</button>
+        <button class="button num" data-val="0">0</button>
+        <button class="button-result">=</button>
+        <button class="button operator" data-val=" + ">&plus;</button>
+      </section>
+    </div>
+    <script src="./assets/app.js"></script>
+  </body>
+</html>
